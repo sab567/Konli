@@ -34,13 +34,13 @@ npm run dev
 ## 🖼️ Aperçu du site
 
 ### Accueil
-![Accueil du site](img/accueil.png)
+![Accueil du site](image/Accueil.png)
 
 ### Faire
-![Page Faire](img/Faire.png)
+![Page Faire](image/Fait.png)
 
 ### Don
-![Page Don](img/Don.png)
+![Page Don](image/Don.png)
 
 ---
 
