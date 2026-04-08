@@ -29,9 +29,18 @@ npm install
 npm run dev
 ```
 
-⚠️ **Attention pour le ChatBot** : 
-Le ChatBot utilise un script PHP (`chat.php`) qui ne fonctionne que sur un vrai serveur (comme OVH). 
-Si vous lancez le site avec `npm run dev` sur votre ordinateur, **le ChatBot ne répondra pas**, c'est normal. Il fonctionnera dès qu'il sera en ligne sur OVH.
+---
+
+## 🖼️ Aperçu du site
+
+### Accueil
+![Accueil du site](img/accueil.png)
+
+### Faire
+![Page Faire](img/Faire.png)
+
+### Don
+![Page Don](img/Don.png)
 
 ---
 
@@ -46,7 +55,6 @@ Vous devez avoir une clé API valide. Ne la mettez PAS dans le code. Suivez le g
 - **`index.html`** : Mettre à jour les balises Meta pour le SEO (titre, description).
 - **`src/components/Footer.jsx`** : Remplacer l'adresse email, le numéro de téléphone et les liens réseaux sociaux.
 - **`src/pages/Donation.jsx`** : Mettre à jour le lien HelloAsso.
-- **`src/data/siteContext.js`** : Modifier les informations de l'association pour que le ChatBot les connaisse (adresse, horaires, etc.).
 
 ### 3. Mentions Légales
 - Mettre à jour le fichier `src/pages/MentionsLegales.jsx` avec les vraies informations juridiques.
@@ -58,7 +66,6 @@ Vous devez avoir une clé API valide. Ne la mettez PAS dans le code. Suivez le g
 Une fois déployé sur OVH, votre dossier `www` ressemblera à ça :
 
 - `assets/` : Les images et styles du site.
-- `api/` : Le dossier contenant `chat.php` (le backend du ChatBot).
 - `index.html` : La page d'accueil.
 - `.htaccess` : Le fichier de configuration technique (ne pas toucher).
 
