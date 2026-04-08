@@ -36,8 +36,8 @@ npm run dev
 ### Accueil
 ![Accueil du site](image/Accueil.png)
 
-### Faire
-![Page Faire](image/Fait.png)
+### Missions
+![Page Faire](image/Fais.png)
 
 ### Don
 ![Page Don](image/Don.png)
