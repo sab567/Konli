@@ -48,10 +48,7 @@ npm run dev
 
 Avant la mise en ligne, pensez à vérifier ces fichiers :
 
-### 1. Clé API
-Vous devez avoir une clé API valide. Ne la mettez PAS dans le code. Suivez le guide de sécurité `GUIDE_OVH.md` pour savoir où la placer (`config.php`).
-
-### 2. Informations du site
+### 1. Informations du site
 - **`index.html`** : Mettre à jour les balises Meta pour le SEO (titre, description).
 - **`src/components/Footer.jsx`** : Remplacer l'adresse email, le numéro de téléphone et les liens réseaux sociaux.
 - **`src/pages/Donation.jsx`** : Mettre à jour le lien HelloAsso.
@@ -68,6 +65,3 @@ Une fois déployé sur OVH, votre dossier `www` ressemblera à ça :
 - `assets/` : Les images et styles du site.
 - `index.html` : La page d'accueil.
 - `.htaccess` : Le fichier de configuration technique (ne pas toucher).
-
-Et à la racine de votre hébergement (hors du dossier www) :
-- `config.php` : Le fichier contenant votre clé API secrète.
